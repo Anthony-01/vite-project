@@ -1,12 +1,25 @@
 <template>
   <div class="home-wrapper">
-    Home
+    <el-time-picker v-model="value1" placeholder="Arbitrary time" />
+    <el-time-picker
+        v-model="value2"
+        arrow-control
+        placeholder="Arbitrary time"
+    />
   </div>
 </template>
 
-<script>
+<script lang="js" setup>
+import { ref } from 'vue'
+const value1 = ref()
+const value2 = ref()
 export default {
-  name: "home"
+  data() {
+    return {
+      value1,
+      value2
+    }
+  }
 }
 </script>
 
