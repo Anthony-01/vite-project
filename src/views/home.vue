@@ -6,6 +6,7 @@
         arrow-control
         placeholder="Arbitrary time"
     />
+    <div class="test"></div>
   </div>
 </template>
 
@@ -23,6 +24,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="sass">
+//.test
+//  width: 100px
+//  height: 100px
+//  background-color: $color-primary
 </style>

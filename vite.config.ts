@@ -27,3 +27,18 @@ export default defineConfig({
     // }
   }
 })
+
+// rules: [
+//   {
+//     test: /\.vue$/,
+//     loader: 'vue-loader',
+//     options: {
+//       loaders: {
+//         scss: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader', {
+//           loader: 'sass-resources-loader',
+//           options: {resources: path.resolve(__dirname, '../static/src/style/common.scss')}
+//         }]
+//       }
+//     }
+//   }
+// ]

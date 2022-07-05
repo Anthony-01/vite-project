@@ -7,6 +7,7 @@ import store from './store/index'
 // elementPlus UI
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import './style/colors.sass'
 
 const app = createApp(App);
 
