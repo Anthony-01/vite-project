@@ -10,6 +10,14 @@ export default defineConfig({
       '@': resolve(__dirname, 'src') // 设置 `@` 指向 `src` 目录
     }
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData:
+            '@import "./src/style/colors.sass";'
+      }
+    }
+  },
   base: './', // 设置打包路径
   server: {
     port: 4000, // 设置服务启动端口号
@@ -42,3 +50,12 @@ export default defineConfig({
 //     }
 //   }
 // ]
+// 公共样式文件 那两个都加进去
+// css: {
+//   preprocessorOptions: {
+//     scss: {
+//       additionalData:
+//           '@import "./src/assets/scss/globalVariable.scss";@import "./src/assets/scss/common.scss";'
+//     }
+//   }
+// }

@@ -24,9 +24,10 @@ export default {
 }
 </script>
 
-<style scoped lang="sass">
-//.test
-//  width: 100px
-//  height: 100px
-//  background-color: $color-primary
+<style scoped lang="scss">
+.test{
+  width: 100px;
+  height: 100px;
+  background-color: $color-primary;
+}
 </style>
