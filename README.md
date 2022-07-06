@@ -14,3 +14,6 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+
+##提交代码
+1.提交代码之前需要运行 `npx prettier --write .` 命令来格式化代码。VSCode 编辑器使用 Prettier 配置需要下载插件 Prettier - Code formatter 

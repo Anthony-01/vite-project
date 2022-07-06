@@ -1,15 +1,11 @@
 <template>
-  <div class="axios-wrapper">
-    Axios
-  </div>
+  <div class="axios-wrapper">Axios</div>
 </template>
 
 <script>
 export default {
-  name: "axios"
+  name: 'axios'
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

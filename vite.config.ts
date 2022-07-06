@@ -13,8 +13,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData:
-            '@import "./src/style/colors.sass";'
+        additionalData: '@import "./src/style/colors.sass";'
       }
     }
   },
@@ -36,7 +35,6 @@ export default defineConfig({
   }
 })
 
-
 // 加载 stylus 文件，可以是多个
 // 引入 stylus
 // chainWebpack(config)
@@ -51,5 +49,3 @@ export default defineConfig({
 //         ]
 //       })
 // }
-
-
