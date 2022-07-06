@@ -9,6 +9,9 @@ import store from './store/index';
 import 'element-plus/dist/index.css';
 import './style/colors.sass';
 
+var a=12;
+console.log(a);
+
 const app = createApp(App);
 
 app.use(router);
