@@ -16,4 +16,5 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
 
 ##提交代码
-1.提交代码之前需要运行 `npx prettier --write .` 命令来格式化代码。VSCode 编辑器使用 Prettier 配置需要下载插件 Prettier - Code formatter 
+1. 提交代码之前需要运行 `npx prettier --write .` 命令来格式化代码。VSCode 编辑器使用 Prettier 配置需要下载插件 Prettier - Code formatter 
+2. ESLint 安装成功后，执行 npx eslint --init，然后按照终端操作提示完成一系列设置来创建配置文件。
