@@ -36,26 +36,20 @@ export default defineConfig({
   }
 })
 
-// rules: [
-//   {
-//     test: /\.vue$/,
-//     loader: 'vue-loader',
-//     options: {
-//       loaders: {
-//         scss: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader', {
-//           loader: 'sass-resources-loader',
-//           options: {resources: path.resolve(__dirname, '../static/src/style/common.scss')}
-//         }]
-//       }
-//     }
-//   }
-// ]
-// 公共样式文件 那两个都加进去
-// css: {
-//   preprocessorOptions: {
-//     scss: {
-//       additionalData:
-//           '@import "./src/assets/scss/globalVariable.scss";@import "./src/assets/scss/common.scss";'
-//     }
-//   }
+
+// 加载 stylus 文件，可以是多个
+// 引入 stylus
+// chainWebpack(config)
+// const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
+// types.forEach(type => importStylus(config.module.rule('stylus').oneOf(type)));
+// function importStylus (rule) {
+//   rule.use('style-resource')
+//       .loader('style-resources-loader')
+//       .options({
+//         patterns: [
+//           path.resolve(__dirname, 'src/assets/stylus/global.styl')
+//         ]
+//       })
 // }
+
+
